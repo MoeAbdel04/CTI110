@@ -1,0 +1,16 @@
+user_num = int(input('Enter integer:\n'))
+
+square = user_num * user_num
+cube = user_num * user_num * user_num
+
+print(f'You entered: {user_num}')
+print(f'{user_num} squared is {square}')
+print(f'And {user_num} cubed is {cube} !!')
+
+user_num2 = int(input('Enter another integer:\n'))
+
+sum_result = user_num + user_num2
+product_result = user_num * user_num2
+
+print(f'{user_num} + {user_num2} is {sum_result}')
+print(f'{user_num} * {user_num2} is {product_result}')
