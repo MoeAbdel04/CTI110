@@ -1,0 +1,49 @@
+import turtle
+
+
+wn = turtle.Screen()
+wn.bgcolor("white")
+
+
+initials = turtle.Turtle()
+initials.color("blue")  
+initials.pensize(5)     
+
+
+initials.setheading(0)  
+
+
+initials.penup()
+initials.goto(-50, -100)  
+initials.pendown()
+initials.left(90)
+initials.forward(100)
+initials.right(135)
+initials.forward(50)
+initials.left(90)
+initials.forward(50)
+initials.right(135)
+initials.forward(100)
+
+
+initials.penup()
+initials.right(180)  
+initials.forward(100)
+initials.right(90)   
+initials.forward(100)
+initials.pendown()
+
+
+initials.left(75)
+initials.forward(110)
+initials.right(150)
+initials.forward(110)
+initials.backward(55)
+initials.right(105)
+initials.forward(40)  
+
+
+initials.hideturtle()
+
+
+wn.mainloop()
